@@ -14,6 +14,12 @@ function countdown(number){
           console.log(i + " days til Halloween!")}
  }
 
-
-
 countdown(10);
+//Day 4, loop through array of activities
+let fallActivities = ["carving pumpkins", "playing in leaves", "drinking apple cider", "going to the pumpkin patch", "watch a Halloween themed movie"];
+
+function chooseActivity() {
+const randomIndex = Math.floor(Math.random() * fallActivities.length)
+console.log("Today's activity is " + fallActivities[randomIndex] )
+}
+chooseActivity();
