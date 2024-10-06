@@ -34,3 +34,11 @@ console.log("It's a weekday.")}}
 
 weekend("Friday");
 weekend("Monday");
+//End of week Goal, ask for favorite candy bar and return it in capital letters
+const input = require(`readline-sync`);
+let candyBar = input.question("What is your favorite candy bar?");
+console.log("What is your favorite candy bar?");
+
+let upperCaseCandyBar = candyBar.toUpperCase();
+
+console.log(upperCaseCandyBar);
