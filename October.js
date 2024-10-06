@@ -23,3 +23,14 @@ const randomIndex = Math.floor(Math.random() * fallActivities.length)
 console.log("Today's activity is " + fallActivities[randomIndex] )
 }
 chooseActivity();
+
+//Day 5, Check if it's the weekend and print
+
+function weekend(day){
+if (day == "Saturday"||day == "Sunday"||day == "Friday"){
+console.log("Yay it's the weekend!")}
+else{
+console.log("It's a weekday.")}}
+
+weekend("Friday");
+weekend("Monday");
